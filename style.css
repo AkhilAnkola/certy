@@ -1,0 +1,58 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #36363c;
+	padding-left: 300px;
+}
+.box1
+{
+	position: relative;
+	width: 300px;
+	height: 500px;
+	/*background: url(img/Certificate.png);*/
+	transform: rotate(-45deg) skewY(25deg);
+	/*box-shadow: -25px 40px 4px rgba(0,0,0,.2);*/
+	transition: .5s;
+}
+
+.box2
+{
+	position: relative;
+	width: 500px;
+	height: 300px;
+	/*background: url(img/Certificate.png);*/
+	transform: rotate(45deg) skewY(-25deg);
+	/*box-shadow: -25px 40px 4px rgba(0,0,0,.2);*/
+	transition: .5s;
+}
+
+.box3
+{
+	position: relative;
+	width: 500px;
+	height: 300px;
+	/*background: url(img/Certificate.png);*/
+	transform: rotate(-45deg) skewY(25deg);
+	/*box-shadow: -25px 40px 4px rgba(0,0,0,.2);*/
+	transition: .5s;
+}
+
+.box4
+{
+	position: relative;
+	width: 300px;
+	height: 500px;
+	/*background: url(img/Certificate.png);*/
+	transform: rotate(-75deg) skewY(25deg);
+	/*box-shadow: -25px 40px 4px rgba(0,0,0,.2);*/
+	transition: .5s;
+}
+h2
+{
+	color: #fff;
+	font-family: 'Overpass', sans-serif;
+}
